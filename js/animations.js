@@ -6,6 +6,8 @@ $(document).ready(function(){
 	
 	$(".tweet-compose").on('click', function(){
 		$(".tweet-compose").css('height', '5em');
+		$("#char-count").show();
+		$(".button").show();
 	})
 
 	
