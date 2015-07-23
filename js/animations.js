@@ -16,6 +16,11 @@ $(document).ready(function(){
 		num--;
 		var thing = num.toString();
 		$("#char-count").text(thing);
+		if (thing <= 10){
+			$("#char-count").css('color', 'red')
+		}else{
+			$("#char-count").css('color', 'black')
+		}
 	});
 
 	
