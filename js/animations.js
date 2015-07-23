@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$(".button", "#tweet-submit").hide();
+	$(".button").hide();
 
 	
 	
