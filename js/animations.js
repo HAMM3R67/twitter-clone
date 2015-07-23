@@ -9,6 +9,14 @@ $(document).ready(function(){
 		$("#char-count").show();
 		$(".button").show();
 	})
+	
+	$(".tweet-compose").keypress(function(){
+		var charCount = $('#char-count').text();
+		var num = parseInt(charCount);
+		num--;
+		var thing = num.toString();
+		$("#char-count").text(thing);
+	});
 
 	
 	
