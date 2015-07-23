@@ -1,9 +1,7 @@
 $(document).ready(function(){
 	
-	$('#tweet-controls').hide();
-	
-	$('#char-count').hide();
-	
+	$(".button", "#tweet-submit").hide();
+
 	
 	
 })
