@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$(".button").hide();
 	
 	$(".tweet-compose").on('click', function(){
-		$(".tweet-compose").animate({height: '5em'}, 500);
+		$(".tweet-compose").css('height', '5em');
 	})
 
 	
