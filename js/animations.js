@@ -21,8 +21,12 @@ $(document).ready(function(){
 		}else{
 			$("#char-count").css('color', 'black')
 		}
+		if (thing < 0){
+			$(".tweet-compose").css('opacity', '0.4').css('color', 'red'); $(".button").attr('disabled', 'disabled');
+		}else {
+			$(".tweet-compose").css('opavity', '1').css('color', 'black'); $(".button").removeAttr('disabled');
+		}
 	});
-
 	
 	
 })
