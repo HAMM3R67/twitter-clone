@@ -17,7 +17,7 @@ $(document).ready(function(){
 		if(Number($('#char-count').html()) < 0) {
 			$('#tweet-submit').prop('disabled', true);
 		};
-		if(Number($('#char-count').html()) > 0){
+		if(Number($('#char-count').html()) >= 0){
 			$('#tweet-submit').prop('disabled', false);
 			
 		};
